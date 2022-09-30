@@ -1,0 +1,375 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    display: block;
+    background-image: url(imagenes/fondo.jpg);
+}
+header {
+    background-image: url(imagenes/fondo_header.jpeg);
+    background-size: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+h1 {
+    color: rgb(10, 53, 91);
+    font-size: 110px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 5px 5px 0 rgb(250, 250, 250);
+}
+.logo {
+    width: 100px;
+}
+
+/*botonera*/
+nav {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url(imagenes/paisaje.jpg);
+}
+nav li {
+    display: inline;
+}
+nav a {
+    text-decoration: none;
+    margin: 55px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-family: monospace;
+    text-shadow: 0 0 5px rgb(0, 21, 136);
+}
+nav ul li a:hover {
+    background-color: rgb(191, 228, 237);
+}
+/*fin botonera*/
+
+/*index*/
+.contenido {
+    display: flex;
+    padding-top: 80px;
+    align-items: center;
+    flex-direction: column;
+}
+.contenido h2 {
+    font-size: 45px;
+    font-family: monospace;
+    color: rgb(12, 48, 120);
+    text-shadow: 0 0 8px rgb(68, 138, 209);
+    padding-bottom: 60px;
+}
+.eventos dt {
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: monospace;
+    color: rgb(8, 50, 105);
+}
+.eventos dd {
+    font-size: 20px;
+    font-family: monospace;
+    color: rgb(23, 63, 114);
+    font-weight: bold;
+}
+.eventos dt, dd:hover {
+    background-color: rgb(201, 239, 247);
+}
+
+/*fin index*/
+
+/*about*/
+.contenido_about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.contenido_about dt, dd {
+    padding: 10px;
+}
+.contenido_about h2 {
+    font-size: 45px;
+    font-family: monospace;
+    color: rgb(12, 48, 120);
+    text-shadow: 0 0 8px rgb(68, 138, 209);
+}
+.contenido_about dt {
+    font-size: 30px;
+    font-family: monospace;
+    color: rgb(8, 50, 105);
+    text-shadow: 0 0 5px rgb(247, 247, 247);
+    font-weight: bolder;
+}
+.contenido_about dd:hover {
+    background-color: rgb(201, 239, 247);
+}
+.contenido_about dd {
+    width: 1000px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    color: rgb(23, 63, 114);
+}
+.imagen2 {
+    width: 450px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+/*fin about*/
+
+/*game information*/
+.aclaracion {
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    text-shadow: 0 0 5px rgb(247, 247, 247);
+    text-align: center;
+    color: rgb(28, 78, 145);
+}
+.aclaracion h4 {
+    font-size: 23px;
+    color: rgb(28, 78, 145);
+}
+.contenido_game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+.contenido_game h2 {
+    font-size: 45px;
+    font-family: monospace;
+    color: rgb(12, 48, 120);
+    text-shadow: 0 0 8px rgb(68, 138, 209);
+}
+.contenido_game p {
+    padding-bottom: 20px;
+    font-size: 20px;
+    padding-top: 5px;
+    font-family: monospace;
+    color: rgb(23, 63, 114);
+}
+table {
+    border-collapse: collapse;
+    background-color: rgb(193, 227, 233);
+    width: 1000px;
+}
+td, th {
+    padding: 10px;
+    text-align: center;
+    color: rgb(23, 63, 114);
+}
+th {
+    font-size: x-large;
+    font-family: monospace;
+}
+td {
+    font-size: larger;
+    font-family: monospace;
+}
+/*fin game information*/
+
+/*rules*/
+.contenido_rules {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.contenido_rules h2 {
+    font-size: 45px;
+    font-family: monospace;
+    color: rgb(12, 48, 120);
+    text-shadow: 0 0 8px rgb(68, 138, 209);
+    text-align: center;
+    padding-bottom: 35px;
+    padding-top: 15px;
+}
+.contenido_rules h3 {
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: 700;
+    color: rgb(33, 76, 160);
+    text-shadow: 0 0 5px rgb(247, 247, 247);
+    padding-bottom: 25px;
+}
+.contenido_rules dt {
+    font-size: 25px;
+    font-family: monospace;
+    color: rgb(0, 40, 93);
+    text-shadow: 0 0 5px rgb(247, 247, 247);
+    font-weight: bolder;
+}
+.contenido_rules dd {
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 20px;
+    color: rgb(28, 78, 145);
+}
+.contenido_rules ol li {
+    list-style-type: none;
+}
+.fields {
+    margin-left: 15px;
+}
+/*fin rules*/
+
+/*registration*/
+.subtitulo_form h2 {
+    font-size: 45px;
+    font-family: monospace;
+    color: rgb(12, 48, 120);
+    text-shadow: 0 0 8px rgb(68, 138, 209);
+    text-align: center;
+    padding-bottom: 45px;
+    padding-top: 45px;
+}
+form {
+    font-size: 20px;
+    font-family: monospace;
+    color: rgb(23, 63, 114);
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    padding-left: 500px;
+    padding-right: 500px;
+    text-shadow: 0 0 1px rgb(3, 1, 13);
+}
+form h3 {
+    font-size: xx-large;
+    color: rgb(6, 17, 81);
+}
+.school {
+    padding-bottom: 30px;
+}
+#school {
+    width: 180px;
+    height: 30px;
+    font-size: 18px;
+    font-family: monospace;
+    color: rgb(23, 63, 114);
+    font-weight: bold;
+}
+.personal {
+    display: flex;
+    flex-direction: row;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+.city {
+    display: flex;
+    flex-direction: column;
+}
+.gender {
+    padding-top: 30px;
+}
+.grade {
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.position {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px;
+}
+.pos1 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+.pos2 {
+    display: flex;
+    flex-direction: column;
+}
+.uniform {
+   display: flex;
+   flex-direction: row;
+}
+.uni1 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+.uni2 {
+    display: flex;
+    flex-direction: column;
+}
+.permition {
+   padding-top: 30px;
+}
+.sendb {
+    width: 100px;
+    height: 50px;
+    margin-bottom: 40px;
+    font-size: larger;
+    margin-left: 350px;
+    margin-top: 40px;
+    background-color: rgb(178, 197, 232);
+    border-color: rgb(23, 62, 85);
+    color: rgb(8, 9, 65);
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+/*fin registration*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 45px;
+}
+footer p, h4 {
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: monospace;
+    color: rgb(6, 17, 81);
+    text-shadow: 0 0 8px rgb(121, 202, 237);
+}
+.imagenes {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+.imagen1 {
+    width: 400px;
+    height: 350px;
+    margin-left: 140px;
+}
+.img2 {
+    width: 400px;
+    height: 350px;
+}
+.img3 {
+    width: 400px;
+    height: 350px;
+}
+.img4 {
+    width: 400px;
+    height: 350px;
+}
+.imagen3 {
+    width: 400px;
+    height: 350px;
+    margin-left: 140px;
+}
+.img5 {
+    width: 400px;
+    height: 350px;
+}
+.img6 {
+    width: 400px;
+    height: 350px;
+}
